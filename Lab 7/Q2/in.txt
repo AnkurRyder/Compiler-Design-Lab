@@ -1,0 +1,34 @@
+global 
+	def
+		// some type defs
+		someId := product
+			pr1op[3], pr2op : someType;
+			otherProp123 :
+			otherId := product
+				extra, nul : null
+			end
+		end;
+
+		var1, var2[5], var3 : float;
+		var4[1], v5[3][4] : int
+	end
+
+	fun myFunc -> int
+		print "# 123QWE"
+	end
+	// commen
+	fun myFunc2
+		var1, var2[5], var3 : float;
+		var4[1], v5[3][4] : int
+		 -> int
+		print "# 123QWE"
+	end
+
+	while awe > qwe:
+		print "# 123QWE";
+		awe := qwe + 1;
+		qwe := qwe + 2
+	end
+
+end
+
