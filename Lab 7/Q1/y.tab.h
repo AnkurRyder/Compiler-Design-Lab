@@ -143,7 +143,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 13 "a.y"
+#line 17 "q.y"
 
 	char name[20];
 
