@@ -15,8 +15,8 @@ first_expression: first_expression '+' second_expression { $$ = $1 + $3; printf 
 | second_expression { $$ = $1; printf ("Recognized a number.\n");}
 ;
 
-second_expression: second_expression '*' NUMBER { $$ = $1 * $3; printf ("Recognized '+' expression.\n");}
-| second_expression '/' NUMBER { $$ = $1 / $3; printf ("Recognized '-' expression.\n");}
+second_expression: second_expression '*' NUMBER { $$ = $1 * $3; printf ("Recognized '*' expression.\n");}
+| second_expression '/' NUMBER { $$ = $1 / $3; printf ("Recognized '/' expression.\n");}
 | NUMBER { $$ = $1; printf ("Recognized a number.\n");}
 ;
 
